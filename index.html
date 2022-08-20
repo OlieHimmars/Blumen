@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Квітковий Бутік</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+					<a class="logo" href="./index.html">
+						<img class="logo-img" src="./images/logo.png" alt="логотип" width="136" />
+					</a>
+					<ul class="list">
+						<li class="item"><a href="#catalogue" class="link">Каталог</a></li>
+						<li class="item"><a href="#about" class="link">Про нас</a></li>
+						<li class="item"><a href="#" class="link">Збери букет</a></li>
+						<li class="item"><a href="#contacts-down" class="link">Контакти</a></li>
+					</ul>
+					<ul class="list">
+						<li>
+							<a class="lupa" href="#"><img src="./images/lupa.png" alt="лупа для пошуку" width="20" height="20" /></a>
+						</li>
+						<li class="basket">
+							<a class="basket" href="#"><img src="./images/basket.png" alt="корзина" width="20" height="20" /></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section id="specials" class="special-propose">
+				<div class="container">
+					<h1 class="special-propose-title">
+						Букет із кущових троянд
+						<br />
+						“Довгоочікуване щастя”
+					</h1>
+					<p class="special-propose-title-text">
+						Ніжний та витончений шик у букеті з троянд -
+						<br />
+						гарний вибір для коханої
+						<br />
+						людини
+					</p>
+					<button type="button" class="to-basket">В кошик</button>
+					<button type="button" class="to-catalog">В каталог</button>
+				</div>
+			</section>
+			<section id="about" class="about-us">
+				<div class="container">
+					<ul class="list-order">
+						<li>
+							<div class="thumb">
+								<img src="./images/bouquets.jpg" alt="букет рожевих квітів" width="210" height="145" />
+								<button class="label" type="button">Букети</button>
+							</div>
+						</li>
+						<li>
+							<div class="thumb">
+								<img
+									src="./images/natural_flowers.jpg"
+									alt="фіолетові живі квіти в білому горщику"
+									width="210"
+									height="145"
+								/>
+								<button class="label" type="button">Живі квіти</button>
+							</div>
+						</li>
+						<li>
+							<div class="thumb">
+								<img
+									src="./images/own_bouquet.png"
+									alt="жовті квіти в вазі на столі поруч з монітором"
+									width="210"
+									height="145"
+								/>
+								<button class="label" type="button">"Свій" букет</button>
+							</div>
+						</li>
+					</ul>
+
+					<div class="box">
+						<h2 class="about-us-title">Про нас</h2>
+						<p class="about-us-text">
+							Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються від
+							такого достатку.
+						</p>
+						<p class="about-us-text">
+							Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини, ніжні фіалки,
+							усипані квітами, аспарагуси, фікуси.
+						</p>
+					</div>
+
+					<article class="work-for-you">
+						<h3 class="work-for-you-title">Працюємо для вас</h3>
+						<ul class="list">
+							<li class="item">
+								<img src="./images/constructor.png" alt="букет квітів" width="65" height="55" />
+								<h4 class="img-title">Конструктрор унікального букета</h4>
+							</li>
+							<li class="item">
+								<img src="./images/delivery.png" alt="" width="65" height="55" />
+								<h4 class="img-title">Безкоштовна доставка по місту до 2-х годин</h4>
+							</li>
+							<li class="item">
+								<img src="./images/indoor.png" alt="" width="65" height="55" />
+								<h4 class="img-title">Наявність кімнатних рослин</h4>
+							</li>
+							<li class="item">
+								<img src="./images/for_loved_ones.png" alt="" width="65" height="55" />
+								<h4 class="img-title">Вибір квітів для коханих, мам та друзів</h4>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="catalogue" class="catalog">
+				<div class="container">
+					<h2 class="catalog-title">Каталог</h2>
+					<ul class="catalog-list">
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart1.jpg" alt="букет лілій та троянд" width="200" />
+							<h3 class="catalog-img-title">
+								Ніжна свіжість:
+								<br />
+								троянди та лілії
+							</h3>
+							<p class="catalog-img-text">445 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart2.jpg" alt="букет хризантем та троянд" width="200" />
+							<h3 class="catalog-img-title">
+								Сорбет:
+								<br />
+								хризантеми та троянди
+							</h3>
+							<p class="catalog-img-text">450 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart3.jpg" alt="букет соняшників" width="200" />
+							<h3 class="catalog-img-title">
+								Yellow Song:
+								<br />
+								соняшники та солідаго
+							</h3>
+							<p class="catalog-img-text">455 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart4.jpg" alt="букет лілій та троянд" width="200" />
+							<h3 class="catalog-img-title">
+								Персиковий нектар:
+								<br />
+								жовті лілії та троянди
+							</h3>
+							<p class="catalog-img-text">455 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart5.jpg" alt="букет білі лілії та білі троянди" width="200" />
+							<h3 class="catalog-img-title">
+								Аврора:
+								<br />
+								лілії та троянди
+							</h3>
+							<p class="catalog-img-text">460 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+						<li class="catalog-item">
+							<img src="./images/bouquet_cart6.jpg" alt="букет червоних троянд" width="200" />
+							<h3 class="catalog-img-title">
+								Класика кохання:
+								<br />
+								червоних троянд
+							</h3>
+							<p class="catalog-img-text">465 грн</p>
+							<button type="button" class="catalog-basket">В кошик</button>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="review" class="reviews">
+				<div class="container">
+					<h2 class="reviews-title">Відгуки</h2>
+
+					<div class="foto-review">
+						<p class="reviews-text">
+							“Сам не фахівець з квітів, але дружині дуже сподобався оригінальний весняний букет, зібраний із позитивним
+							настроєм. Залишаю свій позитивний відгук магазину на вул. Добровольчих батальонів.”
+						</p>
+						<p class="reviews-name">Володимир 19.06.22</p>
+					</div>
+					<div class="foto-review-two">
+						<p class="reviews-text">
+							“Замовляла квіти у неробочий час (увечері), але зі мною дуже оперативно зв'язався співробітник та пообіцяв
+							доставити букет вранці у призначений час. Так і сталося, квіти були доставлені з точністю секунда в
+							секунду, свіжі та красиві. Рекомендую.”
+						</p>
+						<p class="reviews-name">Людмила 03.04.22</p>
+					</div>
+					<h3 class="empty-form">Додати відгук:</h3>
+					<input class="your-name" type="text" value="Ваше ім’я" />
+					<input class="your-review" type="text" value="Ваш відгук:" />
+					<button type="button" class="send-review">Відправити</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<nav class="container">
+				<div class="f-text">
+					<h3 id="contacts-down" class="info-title">Контакти</h3>
+					<ul>
+						<li>(095) 000 00 00</li>
+						<li>(097) 000 00 00</li>
+						<li>Ми працюємо цілодобово</li>
+					</ul>
+				</div>
+				<div class="f-text">
+					<h3 class="info-title">Інформація</h3>
+					<ul>
+						<li><a class="jet" href="#about">Про наc</a></li>
+						<li><a class="jet" href="#specials">Хіт продажу</a></li>
+						<li><a class="jet" href="#review">Відгуки</a></li>
+						<li>Доставка та оплата</li>
+					</ul>
+				</div>
+				<div class="f-text">
+					<a href="#catalogue" class="info-title">Каталог</a>
+					<ul>
+						<li>Збери свій букет</li>
+						<li>Живі квіти</li>
+						<li>Кімнатні рослини</li>
+					</ul>
+				</div>
+				<div>
+					<div class="subsc">
+						<input class="subsc-text" type="text" value="Введіть свій e-mail" />
+						<button class="subscribe">Підписатися</button>
+					</div>
+					<!--
+            <ul class="social-list">
+						<li class="soc-item">
+							<a href="#" class="social">
+								<svg class="logo-social">
+									<use href="./images/facebook.svg" />
+								</svg>
+							</a>
+						</li>
+						<li class="soc-item">
+							<a href="#" class="social">
+								<svg class="logo-social">
+									<use href="./images/instagram.svg" />
+								</svg>
+							</a>
+						</li>
+						<li class="soc-item">
+							<a href="#" class="social">
+								<svg>
+									<use class="logo-social" href="./images/twitter.svg" />
+								</svg>
+							</a>
+						</li>
+					</ul> -->
+					<p class="copyright">Copyright Ⓒ 2022</p>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>
